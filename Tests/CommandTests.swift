@@ -30,7 +30,7 @@ class CommandTests: XCTestCase {
         wait(for: [exp], timeout: 0)
     }
     
-    func testCommandOfInt_BoundWithValue_Execute_ShouldExecuteCommand() {
+    func testCommandOfInt_BoundWithValue_Execute_ShouldExecuteCommandWithBoundValue() {
         let testValue = 7
         let exp = expectation(description: "Should Execute Command")
         let command = CommandOf<Int> { value in
