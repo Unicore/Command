@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2A064F62219B5EB001D7C62 /* CommandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A064F52219B5EB001D7C62 /* CommandTests.swift */; };
+		D2A064F72219B5EB001D7C62 /* CommandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A064F52219B5EB001D7C62 /* CommandTests.swift */; };
+		D2A064F82219B5EB001D7C62 /* CommandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A064F52219B5EB001D7C62 /* CommandTests.swift */; };
 		D2B8B68F2219A72B00094207 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8B68E2219A72B00094207 /* Command.swift */; };
 		D2B8B6902219A72B00094207 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8B68E2219A72B00094207 /* Command.swift */; };
 		D2B8B6912219A72B00094207 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8B68E2219A72B00094207 /* Command.swift */; };
@@ -46,6 +49,10 @@
 
 /* Begin PBXFileReference section */
 		D2A064F12219B0E6001D7C62 /* Command.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Command.podspec; sourceTree = SOURCE_ROOT; };
+		D2A064F22219B5EA001D7C62 /* CommandTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommandTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		D2A064F32219B5EA001D7C62 /* Command tvOSTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Command tvOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		D2A064F42219B5EA001D7C62 /* Command iOSTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Command iOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		D2A064F52219B5EB001D7C62 /* CommandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandTests.swift; sourceTree = "<group>"; };
 		D2B8B68E2219A72B00094207 /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		D2B8B6952219A7A600094207 /* tvOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "tvOS-Info.plist"; sourceTree = "<group>"; };
 		D2B8B6962219A7A600094207 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
@@ -126,6 +133,10 @@
 		D2B8B6932219A73800094207 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				D2A064F52219B5EB001D7C62 /* CommandTests.swift */,
+				D2A064F22219B5EA001D7C62 /* CommandTests-Bridging-Header.h */,
+				D2A064F32219B5EA001D7C62 /* Command tvOSTests-Bridging-Header.h */,
+				D2A064F42219B5EA001D7C62 /* Command iOSTests-Bridging-Header.h */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -345,7 +356,7 @@
 					};
 					FE23058520CFF0E5000E4355 = {
 						CreatedOnToolsVersion = 9.4;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1010;
 					};
 					FE2305D120CFF189000E4355 = {
 						CreatedOnToolsVersion = 9.4;
@@ -357,11 +368,11 @@
 					};
 					FE2305E620CFF19C000E4355 = {
 						CreatedOnToolsVersion = 9.4;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1010;
 					};
 					FEAD14D120D04F0A00BBBD88 = {
 						CreatedOnToolsVersion = 9.4;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1010;
 					};
 					FED3CF5720D0477E00AB04C8 = {
 						CreatedOnToolsVersion = 9.4;
@@ -458,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A064F62219B5EB001D7C62 /* CommandTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A064F72219B5EB001D7C62 /* CommandTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +501,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A064F82219B5EB001D7C62 /* CommandTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,6 +718,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -717,6 +732,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = im.mks.fs.CommandTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/CommandTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -725,6 +742,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -738,6 +756,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = im.mks.fs.CommandTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/CommandTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
@@ -870,6 +889,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
@@ -884,6 +904,8 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Command tvOSTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.4;
@@ -894,6 +916,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
@@ -908,6 +931,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Command tvOSTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.4;
@@ -919,6 +943,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
@@ -932,6 +957,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "im.mks.fs.Command-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Command iOSTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -941,6 +968,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
@@ -954,6 +982,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "im.mks.fs.Command-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Command iOSTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
