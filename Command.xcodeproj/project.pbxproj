@@ -1,0 +1,1092 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2B8B68F2219A72B00094207 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8B68E2219A72B00094207 /* Command.swift */; };
+		D2B8B6902219A72B00094207 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8B68E2219A72B00094207 /* Command.swift */; };
+		D2B8B6912219A72B00094207 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8B68E2219A72B00094207 /* Command.swift */; };
+		D2B8B6922219A72B00094207 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8B68E2219A72B00094207 /* Command.swift */; };
+		D2B8B69C2219A7A600094207 /* Command.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B8B6962219A7A600094207 /* Command.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B8B69D2219A7A600094207 /* Command.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B8B6962219A7A600094207 /* Command.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B8B69E2219A7A600094207 /* Command.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B8B6962219A7A600094207 /* Command.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B8B69F2219A7A600094207 /* Command.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B8B6962219A7A600094207 /* Command.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE23058720CFF0E5000E4355 /* Command.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE23057D20CFF0E5000E4355 /* Command.framework */; };
+		FE2305E820CFF19C000E4355 /* Command.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2305DF20CFF19C000E4355 /* Command.framework */; };
+		FEAD14D720D04F0A00BBBD88 /* Command.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED3CF5820D0477E00AB04C8 /* Command.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE23058820CFF0E5000E4355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE23057420CFF0E5000E4355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE23057C20CFF0E5000E4355;
+			remoteInfo = Command;
+		};
+		FE2305E920CFF19C000E4355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE23057420CFF0E5000E4355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2305DE20CFF19C000E4355;
+			remoteInfo = "Command tvOS";
+		};
+		FEAD14D820D04F0A00BBBD88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE23057420CFF0E5000E4355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED3CF5720D0477E00AB04C8;
+			remoteInfo = "Command iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2A064F12219B0E6001D7C62 /* Command.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Command.podspec; sourceTree = SOURCE_ROOT; };
+		D2B8B68E2219A72B00094207 /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		D2B8B6952219A7A600094207 /* tvOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "tvOS-Info.plist"; sourceTree = "<group>"; };
+		D2B8B6962219A7A600094207 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		D2B8B6972219A7A600094207 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE23057D20CFF0E5000E4355 /* Command.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE23058620CFF0E5000E4355 /* CommandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2305D220CFF189000E4355 /* Command.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2305DF20CFF19C000E4355 /* Command.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2305E720CFF19C000E4355 /* Command tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Command tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAD14D220D04F0A00BBBD88 /* Command iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Command iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED3CF5820D0477E00AB04C8 /* Command.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE23057920CFF0E5000E4355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE23058320CFF0E5000E4355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE23058720CFF0E5000E4355 /* Command.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2305CE20CFF189000E4355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2305DB20CFF19C000E4355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2305E420CFF19C000E4355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2305E820CFF19C000E4355 /* Command.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAD14CF20D04F0A00BBBD88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAD14D720D04F0A00BBBD88 /* Command.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED3CF5420D0477E00AB04C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2B8B68D2219A72B00094207 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D2B8B68E2219A72B00094207 /* Command.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D2B8B6932219A73800094207 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D2B8B6942219A7A600094207 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D2A064F12219B0E6001D7C62 /* Command.podspec */,
+				D2B8B6952219A7A600094207 /* tvOS-Info.plist */,
+				D2B8B6962219A7A600094207 /* Command.h */,
+				D2B8B6972219A7A600094207 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		FE23057320CFF0E5000E4355 = {
+			isa = PBXGroup;
+			children = (
+				D2B8B6942219A7A600094207 /* Support */,
+				D2B8B6932219A73800094207 /* Tests */,
+				D2B8B68D2219A72B00094207 /* Sources */,
+				FE23057E20CFF0E5000E4355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE23057E20CFF0E5000E4355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE23057D20CFF0E5000E4355 /* Command.framework */,
+				FE23058620CFF0E5000E4355 /* CommandTests.xctest */,
+				FE2305D220CFF189000E4355 /* Command.framework */,
+				FE2305DF20CFF19C000E4355 /* Command.framework */,
+				FE2305E720CFF19C000E4355 /* Command tvOSTests.xctest */,
+				FED3CF5820D0477E00AB04C8 /* Command.framework */,
+				FEAD14D220D04F0A00BBBD88 /* Command iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FE23057A20CFF0E5000E4355 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B8B69C2219A7A600094207 /* Command.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2305CF20CFF189000E4355 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B8B69D2219A7A600094207 /* Command.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2305DC20CFF19C000E4355 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B8B69E2219A7A600094207 /* Command.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED3CF5520D0477E00AB04C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B8B69F2219A7A600094207 /* Command.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FE23057C20CFF0E5000E4355 /* Command */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE23059120CFF0E5000E4355 /* Build configuration list for PBXNativeTarget "Command" */;
+			buildPhases = (
+				FE23057820CFF0E5000E4355 /* Sources */,
+				FE23057920CFF0E5000E4355 /* Frameworks */,
+				FE23057A20CFF0E5000E4355 /* Headers */,
+				FE23057B20CFF0E5000E4355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Command;
+			productName = Command;
+			productReference = FE23057D20CFF0E5000E4355 /* Command.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE23058520CFF0E5000E4355 /* CommandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE23059420CFF0E5000E4355 /* Build configuration list for PBXNativeTarget "CommandTests" */;
+			buildPhases = (
+				FE23058220CFF0E5000E4355 /* Sources */,
+				FE23058320CFF0E5000E4355 /* Frameworks */,
+				FE23058420CFF0E5000E4355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE23058920CFF0E5000E4355 /* PBXTargetDependency */,
+			);
+			name = CommandTests;
+			productName = CommandTests;
+			productReference = FE23058620CFF0E5000E4355 /* CommandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE2305D120CFF189000E4355 /* Command watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2305D720CFF189000E4355 /* Build configuration list for PBXNativeTarget "Command watchOS" */;
+			buildPhases = (
+				FE2305CD20CFF189000E4355 /* Sources */,
+				FE2305CE20CFF189000E4355 /* Frameworks */,
+				FE2305CF20CFF189000E4355 /* Headers */,
+				FE2305D020CFF189000E4355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Command watchOS";
+			productName = "Command watchOS";
+			productReference = FE2305D220CFF189000E4355 /* Command.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE2305DE20CFF19C000E4355 /* Command tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2305F020CFF19C000E4355 /* Build configuration list for PBXNativeTarget "Command tvOS" */;
+			buildPhases = (
+				FE2305DA20CFF19C000E4355 /* Sources */,
+				FE2305DB20CFF19C000E4355 /* Frameworks */,
+				FE2305DC20CFF19C000E4355 /* Headers */,
+				FE2305DD20CFF19C000E4355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Command tvOS";
+			productName = "Command tvOS";
+			productReference = FE2305DF20CFF19C000E4355 /* Command.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE2305E620CFF19C000E4355 /* Command tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2305F320CFF19C000E4355 /* Build configuration list for PBXNativeTarget "Command tvOSTests" */;
+			buildPhases = (
+				FE2305E320CFF19C000E4355 /* Sources */,
+				FE2305E420CFF19C000E4355 /* Frameworks */,
+				FE2305E520CFF19C000E4355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE2305EA20CFF19C000E4355 /* PBXTargetDependency */,
+			);
+			name = "Command tvOSTests";
+			productName = "Command tvOSTests";
+			productReference = FE2305E720CFF19C000E4355 /* Command tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEAD14D120D04F0A00BBBD88 /* Command iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEAD14DA20D04F0A00BBBD88 /* Build configuration list for PBXNativeTarget "Command iOSTests" */;
+			buildPhases = (
+				FEAD14CE20D04F0A00BBBD88 /* Sources */,
+				FEAD14CF20D04F0A00BBBD88 /* Frameworks */,
+				FEAD14D020D04F0A00BBBD88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEAD14D920D04F0A00BBBD88 /* PBXTargetDependency */,
+			);
+			name = "Command iOSTests";
+			productName = "Command iOSTests";
+			productReference = FEAD14D220D04F0A00BBBD88 /* Command iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FED3CF5720D0477E00AB04C8 /* Command iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED3CF6920D0477E00AB04C8 /* Build configuration list for PBXNativeTarget "Command iOS" */;
+			buildPhases = (
+				FED3CF5320D0477E00AB04C8 /* Sources */,
+				FED3CF5420D0477E00AB04C8 /* Frameworks */,
+				FED3CF5520D0477E00AB04C8 /* Headers */,
+				FED3CF5620D0477E00AB04C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Command iOS";
+			productName = "Command iOS";
+			productReference = FED3CF5820D0477E00AB04C8 /* Command.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE23057420CFF0E5000E4355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Maksim Bazarov";
+				TargetAttributes = {
+					FE23057C20CFF0E5000E4355 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
+					};
+					FE23058520CFF0E5000E4355 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
+					};
+					FE2305D120CFF189000E4355 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+					FE2305DE20CFF19C000E4355 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
+					};
+					FE2305E620CFF19C000E4355 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
+					};
+					FEAD14D120D04F0A00BBBD88 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
+					};
+					FED3CF5720D0477E00AB04C8 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = FE23057720CFF0E5000E4355 /* Build configuration list for PBXProject "Command" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE23057320CFF0E5000E4355;
+			productRefGroup = FE23057E20CFF0E5000E4355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE23057C20CFF0E5000E4355 /* Command */,
+				FE23058520CFF0E5000E4355 /* CommandTests */,
+				FE2305D120CFF189000E4355 /* Command watchOS */,
+				FE2305DE20CFF19C000E4355 /* Command tvOS */,
+				FE2305E620CFF19C000E4355 /* Command tvOSTests */,
+				FED3CF5720D0477E00AB04C8 /* Command iOS */,
+				FEAD14D120D04F0A00BBBD88 /* Command iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE23057B20CFF0E5000E4355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE23058420CFF0E5000E4355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2305D020CFF189000E4355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2305DD20CFF19C000E4355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2305E520CFF19C000E4355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAD14D020D04F0A00BBBD88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED3CF5620D0477E00AB04C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE23057820CFF0E5000E4355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B8B68F2219A72B00094207 /* Command.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE23058220CFF0E5000E4355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2305CD20CFF189000E4355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B8B6902219A72B00094207 /* Command.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2305DA20CFF19C000E4355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B8B6912219A72B00094207 /* Command.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2305E320CFF19C000E4355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAD14CE20D04F0A00BBBD88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED3CF5320D0477E00AB04C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B8B6922219A72B00094207 /* Command.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE23058920CFF0E5000E4355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE23057C20CFF0E5000E4355 /* Command */;
+			targetProxy = FE23058820CFF0E5000E4355 /* PBXContainerItemProxy */;
+		};
+		FE2305EA20CFF19C000E4355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2305DE20CFF19C000E4355 /* Command tvOS */;
+			targetProxy = FE2305E920CFF19C000E4355 /* PBXContainerItemProxy */;
+		};
+		FEAD14D920D04F0A00BBBD88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FED3CF5720D0477E00AB04C8 /* Command iOS */;
+			targetProxy = FEAD14D820D04F0A00BBBD88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE23058F20CFF0E5000E4355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Command;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE23059020CFF0E5000E4355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Command;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE23059220CFF0E5000E4355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = im.mks.fs.Command;
+				PRODUCT_NAME = Command;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		FE23059320CFF0E5000E4355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = im.mks.fs.Command;
+				PRODUCT_NAME = Command;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		FE23059520CFF0E5000E4355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = im.mks.fs.CommandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		FE23059620CFF0E5000E4355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = im.mks.fs.CommandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		FE2305D820CFF189000E4355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = im.mks.fs.Command;
+				PRODUCT_NAME = Command;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		FE2305D920CFF189000E4355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = im.mks.fs.Command;
+				PRODUCT_NAME = Command;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		FE2305F120CFF19C000E4355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Support/tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = im.mks.fs.Command;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		FE2305F220CFF19C000E4355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Support/tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = im.mks.fs.Command;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE2305F420CFF19C000E4355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "im.mks.fs.Command-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		FE2305F520CFF19C000E4355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Support/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "im.mks.fs.Command-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEAD14DB20D04F0A00BBBD88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "im.mks.fs.Command-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEAD14DC20D04F0A00BBBD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "im.mks.fs.Command-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED3CF6A20D0477E00AB04C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = im.mks.fs.Command;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FED3CF6B20D0477E00AB04C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = im.mks.fs.Command;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE23057720CFF0E5000E4355 /* Build configuration list for PBXProject "Command" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE23058F20CFF0E5000E4355 /* Debug */,
+				FE23059020CFF0E5000E4355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE23059120CFF0E5000E4355 /* Build configuration list for PBXNativeTarget "Command" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE23059220CFF0E5000E4355 /* Debug */,
+				FE23059320CFF0E5000E4355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE23059420CFF0E5000E4355 /* Build configuration list for PBXNativeTarget "CommandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE23059520CFF0E5000E4355 /* Debug */,
+				FE23059620CFF0E5000E4355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2305D720CFF189000E4355 /* Build configuration list for PBXNativeTarget "Command watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2305D820CFF189000E4355 /* Debug */,
+				FE2305D920CFF189000E4355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2305F020CFF19C000E4355 /* Build configuration list for PBXNativeTarget "Command tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2305F120CFF19C000E4355 /* Debug */,
+				FE2305F220CFF19C000E4355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2305F320CFF19C000E4355 /* Build configuration list for PBXNativeTarget "Command tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2305F420CFF19C000E4355 /* Debug */,
+				FE2305F520CFF19C000E4355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEAD14DA20D04F0A00BBBD88 /* Build configuration list for PBXNativeTarget "Command iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAD14DB20D04F0A00BBBD88 /* Debug */,
+				FEAD14DC20D04F0A00BBBD88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED3CF6920D0477E00AB04C8 /* Build configuration list for PBXNativeTarget "Command iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED3CF6A20D0477E00AB04C8 /* Debug */,
+				FED3CF6B20D0477E00AB04C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE23057420CFF0E5000E4355 /* Project object */;
+}
