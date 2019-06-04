@@ -92,17 +92,23 @@ extension CommandOf where T == Void {
     }
 }
 
-/// Allows PlainCommands to be compared and stored in sets and dicts.
-/// Uses `ObjectIdentifier` to distinguish between PlainCommands
+/// Allows Command to be compared and stored in sets and dicts.
+/// Uses `ObjectIdentifier` to distinguish between Commands
 extension CommandOf: Hashable, Equatable {
-    public static
-    func ==(left: CommandOf, right: CommandOf) -> Bool {
+    static
+        func ==(left: CommandOf, right: CommandOf) -> Bool {
         return ObjectIdentifier(left) == ObjectIdentifier(right)
     }
-    
-    public
+
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(ObjectIdentifier(self).hashValue)
+    }
+
+    #if !swift(>=5)
     var hashValue: Int { return ObjectIdentifier(self).hashValue }
+    #endif
 }
+
 
 // MARK: - Value binding
 public
@@ -111,7 +117,6 @@ extension CommandOf {
     ///
     /// - Parameter value: Value to be bound
     /// - Returns: Command with having `value` when executed
-    public
     func bound(to value: T) -> Command {
         return Command { self.execute(with: value) }
     }
