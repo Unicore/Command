@@ -95,16 +95,18 @@ extension CommandOf where T == Void {
 /// Allows Command to be compared and stored in sets and dicts.
 /// Uses `ObjectIdentifier` to distinguish between Commands
 extension CommandOf: Hashable, Equatable {
-    static
-        func ==(left: CommandOf, right: CommandOf) -> Bool {
+    public static 
+    func ==(left: CommandOf, right: CommandOf) -> Bool {
         return ObjectIdentifier(left) == ObjectIdentifier(right)
     }
 
+    public 
     func hash(into hasher: inout Hasher) {
         hasher.combine(ObjectIdentifier(self).hashValue)
     }
 
     #if !swift(>=5)
+    public 
     var hashValue: Int { return ObjectIdentifier(self).hashValue }
     #endif
 }
