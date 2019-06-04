@@ -136,7 +136,6 @@ extension CommandOf {
 public
 extension CommandOf {
     
-    public
     func async(on queue: DispatchQueue) -> CommandOf {
         return CommandOf { value in
             queue.async {
