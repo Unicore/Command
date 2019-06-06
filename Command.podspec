@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name = 'Command'
-  s.version = '1.5.0'
-  s.swift_version = '4.2'
+  s.version = '1.5.1'
+  s.swift_version = '5'
   s.license = 'MIT'
   s.summary = 'The Command pattern implementation'
   s.description = 'Applying a pattern Command we have a more readable and protected form side-effects data structure, which gives you a closure without a possibility of returning a result.'
