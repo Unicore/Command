@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = 'Command'
-  s.version = '1.1.1'
+  s.version = '1.5.0'
   s.swift_version = '4.2'
   s.license = 'MIT'
   s.summary = 'The Command pattern implementation'
